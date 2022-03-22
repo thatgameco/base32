@@ -1,0 +1,27 @@
+{
+  "name": "@thatgameco/base32",
+  "version": "1.0.0",
+  "description": "Simple base32 encoder / decoder",
+  "repository": "thatgameco/base32",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test"
+  },
+  "keywords": [
+    "base32",
+    "rfc4648",
+    "encode",
+    "decode"
+  ],
+  "author": "Peter K. Lee <peter@thatgame.co>",
+  "license": "MIT",
+  "dependencies": {
+    "to-data-view": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=14.13.1 || >=16.0.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
